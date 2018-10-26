@@ -10,7 +10,7 @@
 		
 
 <head><meta name="generator" content="Hexo 3.8.0">
-	<title>Hello World</title>
+	<title>flash</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="apple-mobile-web-app-title" content="Amaze UI">
@@ -54,7 +54,7 @@
 		
 		
 			
-			<p class="page-name">当前文章&nbsp;:&nbsp;《Hello World》</p>
+			<p class="page-name">当前文章&nbsp;:&nbsp;《flash》</p>
 			
 		
 	
@@ -163,8 +163,8 @@
 					
 					
 	
-		<a href="/2018/10/22/hello-world/" itemprop="url">		
-			Hello World		
+		<a href="/2018/10/26/flash/" itemprop="url">		
+			flash		
 		</a>
 	
 
@@ -173,15 +173,20 @@
 				<p class="am-article-meta blog-text-center">
 					<span>
 						<i class="fa fa-clock-o"></i> 
-						<a href="/2018/10/22/hello-world/" itemprop="url">
-	<time datetime="2018-10-22T03:03:44.386Z" itemprop="datePublished">
-  		2018-10-22
+						<a href="/2018/10/26/flash/" itemprop="url">
+	<time datetime="2018-10-26T02:25:34.000Z" itemprop="datePublished">
+  		2018-10-26
   </time>
 </a>    
 &nbsp;
 					</span>
 					
 					<span>						
+						
+							<i class="fa fa-tags"></i>
+							
+								<a href="#Web 前端" title="Web 前端" rel="2">Web 前端</a>&nbsp;
+													 											
 						
 					</span>
 				</p>
@@ -190,19 +195,139 @@
 			<div class="am-article-bd">
 				<div class="content" id="post-content">
 					
-						<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+						<h3 id="JS判断当前浏览器是否启用falsh，并强制调用flash方法"><a href="#JS判断当前浏览器是否启用falsh，并强制调用flash方法" class="headerlink" title="JS判断当前浏览器是否启用falsh，并强制调用flash方法"></a>JS判断当前浏览器是否启用falsh，并强制调用flash方法</h3><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><pre><code>众所周知，falsh已经正式被Adobe公司所放弃，还记得乔布斯说过：“未来，将是html的天下，falsh终将被淘汰”；
+</code></pre><p>谷歌浏览器一马当先，率先在谷歌浏览器当中默认禁止flash控件了，各大视频网站也纷纷抛弃flash，转向html5播放器，国内视频弹幕网站哔哩哔哩识得先机，早早的把自家的播放器升级成为了html5，最早尝到第一口科技带来的“蛋糕”，把国内许多知名大厂甩在身后。</p>
+<p>诚然，flash被淘汰是迟早的事情，但是，不得不提国内还有许许多多的用户，或者是老的企业所用到的技术，还在停留在IE、flash，tab布局的上古时代，老板一句：“我要兼容IE6”，也不是没有可能发生的事情。</p>
+<p>很不幸的事情就是，现就职的这家公司，就还在采用falsh技术作开发，利用falsh来作文件上传，本来也是老旧的东西，只要能用就行，这也无可厚非。可是昨天发生了一个bug就是让我感觉，这玩意还是赶紧淘汰吧。重构都来得好一些。。。2333333</p>
+<h4 id="问题产生"><a href="#问题产生" class="headerlink" title="问题产生"></a>问题产生</h4><p>项目当中有一个功能就是网盘功能，大家都知道，它是用来存储数据的一个功能，必然会有一个上传的东西，我们是使用了flash作为上传控件，用的还是upload.js的一个控件，可以说是非常的老旧了，也就是这么个老古董，也有bug。</p>
+<p>我们发现，当点击这个按钮的时候，根本没有执行选取文件这一步，也就说，点击上传选文件的时候，没有反应，用了360浏览器，反而可以（之前360被我狠狠的突出了一番）今天表现居然这么良好？</p>
+<h4 id="查找原因"><a href="#查找原因" class="headerlink" title="查找原因"></a>查找原因</h4><p>后来查看代码看到，原来是浏览器的falsh插件并没有启动，导致这个控件根本没有执行。<br>可用下列代码获取当前浏览器的flash状态</p>
+<pre><code>    //判断是否开启了flash
+flashChecker: function () {
+    var hasFlash = 0; //是否安装了flash
+    var flashVersion = 0; //flash版本
+    var isIE = /*@cc_on!@*/ 0; //是否IE浏览器
+    if (isIE) {
+        var swf = new ActiveXObject(&#39;ShockwaveFlash.ShockwaveFlash&#39;);
+        if (swf) {
+            hasFlash = 1;
+            VSwf = swf.GetVariable(&quot;$version&quot;);
+            flashVersion = parseInt(VSwf.split(&quot; &quot;)[1].split(&quot;,&quot;)[0]);
+        }
+    } else {
+        if (navigator.plugins &amp;&amp; navigator.plugins.length &gt; 0) {
+            var swf = navigator.plugins[&quot;Shockwave Flash&quot;];
+            if (swf) {
+                hasFlash = 1;
+                var words = swf.description.split(&quot; &quot;);
+                for (var i = 0; i &lt; words.length; ++i) {
+                    if (isNaN(parseInt(words[i]))) continue;
+                    flashVersion = parseInt(words[i]);
+                }
+            }
+        }
+    }
+    return {
+        f: hasFlash,
+        v: flashVersion
+    };
+},
+</code></pre><p>知道原因就好办了，下面就让我们来解决这个bug</p>
+<h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><p>现在，我们已经知道，产生这个bug的根本原因是因为当前浏览器没有启用flash，那我们利用JS代码来启用它不就行了吗？</p>
+<p>首先，创建一个 a 标签</p>
+<pre><code>var a = document.createElement(&#39;a&#39;);
+</code></pre><p>然后设置一堆属性</p>
+<pre><code>a.style.display = &#39;none&#39;;
+a.href = &quot;http://www.adobe.com/go/getflashplayer&quot;;
+a.rel = &quot;nofollow&quot;;
+a.target = &quot;_blank&quot;;
+</code></pre><p>然后，添加到body里面去</p>
+<pre><code>document.body.appendChild(a);
+</code></pre><p>最后，自动执行这个</p>
+<pre><code>a.click();
+</code></pre><p>好了。最终效果就是这个样子。</p>
+<pre><code>var a = document.createElement(&#39;a&#39;);
+a.style.display = &#39;none&#39;;
+a.href = &quot;http://www.adobe.com/go/getflashplayer&quot;;
+a.rel = &quot;nofollow&quot;;
+a.target = &quot;_blank&quot;;
+document.body.appendChild(a);
+a.click();
+</code></pre><h4 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h4><p>当点击了上传文件按钮的时候</p>
+<p><img src="https://i.imgur.com/09kqcSg.jpg" alt=""></p>
+<p>会先提示你开启flash</p>
+<p><img src="https://i.imgur.com/gUkArqf.jpg" alt=""></p>
+<p>当你点击确定的时候，就代表当前浏览器已经开启了flash功能了。</p>
+<h4 id="思路整理"><a href="#思路整理" class="headerlink" title="思路整理"></a>思路整理</h4><p>首先定义一个函数，来判断是否开启了flash</p>
+<pre><code>//判断是否开启了flash
+flashChecker: function () {
+    var hasFlash = 0; //是否安装了flash
+    var flashVersion = 0; //flash版本
+    var isIE = /*@cc_on!@*/ 0; //是否IE浏览器
+    if (isIE) {
+        var swf = new ActiveXObject(&#39;ShockwaveFlash.ShockwaveFlash&#39;);
+        if (swf) {
+            hasFlash = 1;
+            VSwf = swf.GetVariable(&quot;$version&quot;);
+            flashVersion = parseInt(VSwf.split(&quot; &quot;)[1].split(&quot;,&quot;)[0]);
+        }
+    } else {
+        if (navigator.plugins &amp;&amp; navigator.plugins.length &gt; 0) {
+            var swf = navigator.plugins[&quot;Shockwave Flash&quot;];
+            if (swf) {
+                hasFlash = 1;
+                var words = swf.description.split(&quot; &quot;);
+                for (var i = 0; i &lt; words.length; ++i) {
+                    if (isNaN(parseInt(words[i]))) continue;
+                    flashVersion = parseInt(words[i]);
+                }
+            }
+        }
+    }
+    return {
+        f: hasFlash,
+        v: flashVersion
+    };
+},
+</code></pre><p>然后就是在点击的时候，首先执行这个函数，来获取当前的状态来判定，是否开启了flash，如果没有，则执行调用函数，否则，执行上传功能弹窗。</p>
+<pre><code>openAddFileDialog: function () {
+var fls = netdisk.flashChecker();
+if (fls.f) {
+    $.dialog({
+        id: &#39;nd01&#39;,
+        title: &#39;添加文件&#39;,
+        content: $(&#39;#netdisk_uploadfile&#39;).html(),
+        padding: &#39;5px 25px&#39;,
+        button: [{
+            name: &quot;上传&quot;,
+            callback: function () {
+                $(&#39;#uploadFile&#39;).uploadify(&#39;upload&#39;);
+                return false;
+            },
+            focus: true
+        }, {
+            name: &quot;取消上传&quot;,
+            callback: function () {
+                $(&#39;#uploadFile&#39;).uploadify(&#39;cancel&#39;);
+                this.close();
+                return false;
+            },
+        }],
+        lock: true
+    });
+    netdisk.initUploadify();
+} else {
+        var a = document.createElement(&#39;a&#39;);
+        a.style.display = &#39;none&#39;;
+        a.href = &quot;http://www.adobe.com/go/getflashplayer&quot;;
+        a.rel = &quot;nofollow&quot;;
+        a.target = &quot;_blank&quot;;
+        document.body.appendChild(a);
+        a.click();
+    }
+}
+</code></pre><p>此代码是能够针对所有浏览器来判断是否开启，并且来调用flash，亲测chrome、Firefox、360、EDG、IE有效。</p>
+<p>至此，End；</p>
 
 					
 				</div>
@@ -211,13 +336,13 @@
 
 		<ul class="am-pagination">
     
-    	<li class="am-pagination-prev">
-   		<a class="pull-left" href="/2018/10/24/360bowser/" title="关于360浏览器自动填充表单问题以及解决方案">
-      		&laquo; 上一篇
+	
+		<li class="am-pagination-next">
+		<a class="pull-right" href="/2018/10/24/360bowser/" title="关于360浏览器自动填充表单问题以及解决方案">
+			下一篇 &raquo;
 		</a>
 		</li>
-	
-	
+	 
  </ul>
         
 
@@ -305,7 +430,7 @@
 				
 				
 				<!--toc(post.content)-->
-				<ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-text">Quick Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Create-a-new-post"><span class="post-toc-text">Create a new post</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Run-server"><span class="post-toc-text">Run server</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Generate-static-files"><span class="post-toc-text">Generate static files</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Deploy-to-remote-sites"><span class="post-toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+				<ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JS判断当前浏览器是否启用falsh，并强制调用flash方法"><span class="post-toc-text">JS判断当前浏览器是否启用falsh，并强制调用flash方法</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#前言"><span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#问题产生"><span class="post-toc-text">问题产生</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#查找原因"><span class="post-toc-text">查找原因</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#解决办法"><span class="post-toc-text">解决办法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#效果展示"><span class="post-toc-text">效果展示</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#思路整理"><span class="post-toc-text">思路整理</span></a></li></ol></li></ol>
 			</nav>
 			<div class="post-toc-bar"><div>
 		</div></div></aside>
