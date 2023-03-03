@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>风景图</title>
+      <link href="/gallery/fengjing/"/>
+      <url>/gallery/fengjing/</url>
+      
+        <content type="html"><![CDATA[<h2 id="示例图片"><a href="#示例图片" class="headerlink" title="示例图片"></a>示例图片</h2><div class="gallery ">              <p><img src="https://pic4.zhimg.com/80/v2-515859a54d7c9b89c070c6132dff4527_1440w.jpg?source=1940ef5c" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-515859a54d7c9b89c070c6132dff4527_1440w.jpg?source=1940ef5c" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="图片描述"></p>            </div><h2 id="示例图片-1"><a href="#示例图片-1" class="headerlink" title="示例图片"></a>示例图片</h2><div class="gallery ">              <p><img src="https://pic2.zhimg.com/80/v2-bcb819edb98e081817066eb6b0e6a2ef_1440w.jpg?source=1940ef5c" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-bcb819edb98e081817066eb6b0e6a2ef_1440w.jpg?source=1940ef5c" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="图片描述"><br><img src="https://pic2.zhimg.com/80/v2-f1b467abef1caeb5537f399da4ddbc9d_1440w.jpg?source=1940ef5c" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-f1b467abef1caeb5537f399da4ddbc9d_1440w.jpg?source=1940ef5c" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="图片描述"><br><img src="https://pic2.zhimg.com/80/v2-c513cb0d2eff43b5391ea682f1ba07c6_1440w.jpg?source=1940ef5c" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-c513cb0d2eff43b5391ea682f1ba07c6_1440w.jpg?source=1940ef5c" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="图片描述"></p>            </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 图片 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> gallery </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/gallerygroup/test/"/>
+      <url>/gallerygroup/test/</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">      <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-23c3820e8abfb1cef689531af2dc6d09_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/bizhi'></a>  </figcaption>  </figure>        <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-8d542d68cbbf0e5f503da9e3f72b8447_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">古典图片</div>  <p>中国古典图片</p>  <a href='/gallery/gudian'></a>  </figcaption>  </figure>        <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-56164ef0695767475935c9e019c594ae_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>风景图片</p>  <a href='/gallery/fengjing'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/technology/hello-world/"/>
       <url>/technology/hello-world/</url>
@@ -50,6 +88,19 @@
             <tag> technology </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试一下</title>
+      <link href="/technology/gallarygroup/index/"/>
+      <url>/technology/gallarygroup/index/</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">      <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-23c3820e8abfb1cef689531af2dc6d09_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/gallery/bizhi'></a>  </figcaption>  </figure>        <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-8d542d68cbbf0e5f503da9e3f72b8447_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">古典图片</div>  <p>中国古典图片</p>  <a href='/gallery/gudian'></a>  </figcaption>  </figure>        <figure class="gallery-group">  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-56164ef0695767475935c9e019c594ae_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>风景图片</p>  <a href='/gallery/fengjing'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+      
       
     </entry>
     
